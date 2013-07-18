@@ -1,0 +1,39 @@
+{
+  "name": "angular-http-util",
+  "version": "0.1.0",
+  "description": "AngularJS http service utilities",
+  "keywords": [],
+  "homepage": "http://github.com/kevinhillinger/angular-http-util",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kevinhillinger/angular-http-util.git"
+  },
+  "author": "Kevin Hillinger",
+  "main": "scripts/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0.4.3",
+        "grunt-karma": "~0.4.1",
+        "grunt-contrib-clean": "~0.4.0",
+		"grunt-contrib-connect": "~0.2.0",
+        "grunt-contrib-watch": "~0.3.1",
+        "grunt-contrib-concat": "~0.3.0",
+        "grunt-contrib-copy": "~0.4.1",
+        "grunt-contrib-uglify": "~0.2.0",
+        "grunt-express": "~0.3.0",
+        "express": "3.x",
+		"connect": "~2.8.4"
+  },
+  "dependencies": {
+	"express": ">= 3.0.0",
+    "open": ">= 0.0.2",
+    "karma": ""
+  },
+  "engines": {
+    "node": ">= 0.10.4"
+  },
+  "license": "MIT"
+}

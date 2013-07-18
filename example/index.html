@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Test App</title>
+</head>
+<body>
+    <div ng-controller="mainController">
+        <ul>
+            <li ng-repeat="person in people">{{person.name}}</li>
+        </ul>
+    </div>
+    
+    <script src="http://code.angularjs.org/1.1.4/angular.js"></script>
+    <script src="lib/angular-http-util.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
